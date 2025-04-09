@@ -5,3 +5,7 @@ torch
 faiss-cpu
 beautifulsoup4
 requests
+fastapi
+uvicorn
+joblib
+
