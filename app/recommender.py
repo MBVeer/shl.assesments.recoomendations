@@ -1,8 +1,8 @@
 import pandas as pd
 import pickle
 from sentence_transformers import SentenceTransformer, util
+pd.read_csv("data/shl_catalog.csv")
 
-catalog = pd.read_csv("app/data/shl_catalog.csv")
 with open("app/embeddings/index.pkl", "rb") as f:
     embeddings = pickle.load(f)
 
